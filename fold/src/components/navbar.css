@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    padding-left:100px ;
+    background-color: rgba(255, 0, 0, 0.652);
+  
+}
+
+.category-btn {
+    color: white;
+    background-color: #000000bc;
+    border: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 30px;
+}
+
+.category-btn:hover {
+    background-color: crimson;
+}
